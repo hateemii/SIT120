@@ -1,0 +1,49 @@
+<html>
+
+  <head>
+    <title> My first webpage </title>
+    <style>
+    button {
+      border-radius: 40px;
+      font-size: 24px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    /= create two equal columns that float next to each other =/
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height: 800px;
+    
+      =/
+  
+    }
+    </style>
+
+  <body>
+    <h1>
+      Hatim Abbas
+    </h1>
+    <p style="color:black;" onclick="hatim()">
+      this is a test paragraph
+    </p>
+    <ol id="mylist">
+      <li>item 1</li>
+      <li> item 2</li>
+    </ol>
+    <ol id="mysecondlist" onclick="hussain()">
+      <li>item 1</li>
+      <li> item 2</li>
+    </ol>
+    <button onclick="hatim()">
+    Click Me!
+    </button>
+    <form>
+    <label>please input your age</label><input type="text" id="age" size=9 onclick ="hatim()"/>
+    </form>
+  </body>
+  </head>
+
+</html>
