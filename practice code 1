@@ -1,0 +1,47 @@
+<html>
+
+  <head>
+    <title> This is a test
+    </title>
+
+  <body>
+    <h1>
+      Hatim Abbas
+    </h1>
+    <p style="color:black;" onclick="hatim()">
+      this is a test paragraph
+    </p>
+    <ol id="mylist">
+      <li>item 1</li>
+      <li> item 2</li>
+    </ol>
+    <ol id="mysecondlist" onclick="hussain()">
+      <li>item 1</li>
+      <li> item 2</li>
+    </ol>
+    <button onclick="hatim()">
+    Click Me!
+    </button>
+    <form>
+    <label>please input your age</label><input type="text" id="age" size=9 onclick ="hatim()"/>
+    </form>
+  </body>
+  </head>
+
+</html>
+p {color:blue}
+#mylist {color:red;
+font-family: monsterrat;
+text-align: left}
+#mysecondlist {color:blue}
+div {
+  width: 300px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+function hatim(){
+alert("this is an alert banner")
+}
+function hussain(){
+alert("your name is this")
+}
